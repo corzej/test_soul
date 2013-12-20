@@ -1,0 +1,26 @@
+<div class="masthead">
+  <div class="pagination-centered">
+    <%= image_tag("http://www.marefa.org/images/c/ca/Sony_logo.svg", alt: "Home Header Image", class: "img-responsive", size: "300") %>
+  </div>
+</div>
+<div class="navbar navbar-justified">
+  <div class="navbar-inner">
+    <div class="container">
+      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+      <div class="nav-collapse">
+        <ul class="nav">
+          <li><%= link_to "About Soul", main_home_path %></li>
+          <li><%= link_to "Pottery", freeboards_path %></li>
+          <li><%= link_to "Gallery" %></li>
+          <li><%= link_to "Academy" %></li>
+          <li><%= link_to "Event" %></li>
+          <li><%= link_to "Notice" %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
