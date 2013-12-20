@@ -19,7 +19,7 @@
             <td><%= link_to freeboard.id, freeboard_path(freeboard) %></td>
             <td><%= freeboard.title %></td>
             <td><%= freeboard.user %></td>
-            <td><%=l freeboard.created_at %></td>
+            <td><%=localize(freeboard.created_at, :format => :short) %></td>
           </tr>
         <% end %>
       </tbody>
